@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+   display: grid;
+   grid-template-areas: 
+     'secreen secreen secreen secreen'
+     'AC AC divide fois'
+     'seven eight nine sub'
+     'four five six add'
+     'one two three equal'
+     'zero zero point equal';
+     width: 500px;
+     gap: 1px;
+     
+}
+.secreen{
+  grid-area: secreen;
+  background-color: #434655;
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90px;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+#root{
+  background-image: linear-gradient(to right top, #007bff, #7d6bee, #ac59d5, #ca45b8, #dc3598);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AC{
+  grid-area: AC;
+}
+.divide{
+  grid-area: divide;
+}
+.fois{
+  grid-area: fois;
+}
+.seven{
+  grid-area: seven;
+}
+.eight{
+  grid-area: eight;
+}
+.nine{
+  grid-area: nine;
+}
+.sub{
+  grid-area: sub;
+}
+.four{
+  grid-area: four;
+}
+.five{
+  grid-area: five;
+}
+.six{
+  grid-area: six;
+}
+.add{
+  grid-area: add;
+}
+.one{
+  grid-area: one;
+}
+.two{
+  grid-area: two;
+}
+.three{
+  grid-area: three
+}
+.equal{
+  grid-area: equal;
+}
+.zero{
+  grid-area: zero;
+}
+.point{
+  grid-area: point;
+}
+button{
+  height: 90px;
+  width: 100%;
+  font-size: 30px;
+  
+}
+.fix{
+   height: 180px;
+}
+p{
+  font-size: 20px;
+}
+.btn2{
+  background-color: white;
+}
